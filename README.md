@@ -1,24 +1,32 @@
-# Assignment1
+# Assignment 1
 
-Opdracht 1:
+1. Start: 
+* Split the files into its own classes
+  * Use some seperation policy you find logical
+* Add Additional rooms with navigation
+  * Reuse existing functionality within the application.
+* Let the player of the game choose and enter his own name
+  * Assign the name if it is correct (for example to PlayerName)
+  * If a player enter "" or " " ask the playername, keep asking for the player name until the player enters a proper name.
 
-* Slit in eigen files
-* Logische opdeling
-  * Introduceer een aantal kamers, met navigatie
-* laat de speler een naam kiezen en assigneer deze correct.
-  * Als de speler "" opgeeft, blijf vragen tot hij wel een goede naam geeft
-* Implementeer 
-  * MoveToDirection
-    * Deze moet de _currentRoom op de directie zetten waar iemand naar toe wil
-    * Of een error printen indien dit niet mogelijk is
-* Implementeer
-  * Additionele commands
-  * look, rond kijken
-  * exit, de game exiten
-  * help, help commandos tonen
-* Implementeer
-  * Monstertjes
-  * Aanvallen
-  * Inventory
-* Implementeer 
-  * Iets leuks voor het handlen van de commands, het weg werken van de switch, hoe kan dit?
+2. Extend the application
+* Implement MoveToDirection
+  * The method should set _currentRoom to the direction the player wants to navigate
+  * Or the method should print some kind of error incase navigation is not possible
+* Implement Additional commands
+  * look -> Look arround 
+  * exit -> Exit the game
+  * help -> Show the help commands
+
+3. Extend the application even more!
+* Implement Monsters in some rooms
+  * Monsters have HP and ATK points
+  * There should be some (min 3) different monster types
+* Implement the ability to attack the Monsters as the player.
+  * This can use default ATK points for the player.
+  * Gain EXP when the player kills a monster, and thereby increasing the ATK points the player has.
+
+4. Extend the application even more even more!
+* Implement the ability to pick up items dropped by monsters
+* Implement a solution for the handling of commands
+  * Currently this uses some kind of switch statement, find and use something else for this.
