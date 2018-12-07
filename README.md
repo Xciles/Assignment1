@@ -1,4 +1,9 @@
 # Assignment 1
+The previous developer of this application went on vacation before the customer was given a working application. 
+
+You have been hired to fix his garbage and continue working on the application before the customer explodes with anger.
+
+You have 4 tasks:
 
 1. Start: 
 * Split the files into its own classes
